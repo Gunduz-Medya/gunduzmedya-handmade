@@ -1,0 +1,57 @@
+h3 {
+  font-size: 2.3333333333em;
+  letter-spacing: -1px;
+  margin-bottom: 1.75rem;
+  color: $dark-grey;
+}
+h4 {
+  color: $light-grey;
+}
+span {
+  display: block;
+  color: #fe2d5b;
+  margin-top: -0.25rem;
+}
+
+.underlinedLink {
+  position: relative;
+  padding-top: 1rem !important;
+  display: inline-flex;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  letter-spacing: 2px;
+  transition: color 0.25s;
+}
+.underlinedLink:hover {
+  color: #fe2d5b;
+  text-decoration: none;
+}
+.underlinedLink:hover:before {
+  -webkit-transform: scaleX(1.1);
+  transform: scaleX(1.1);
+}
+.underlinedLink:before {
+  position: absolute;
+  right: 0;
+  bottom: -0.125rem;
+  left: 0;
+  display: block;
+  height: 0.125rem;
+  background-color: currentColor;
+  content: '';
+  transition-duration: 0.25s;
+  transition-property: background-color, -webkit-transform;
+  transition-property: transform, background-color;
+  transition-property: transform, background-color, -webkit-transform;
+}
+
+.gm_header {
+  min-height: 70vh;
+  display: flex;
+}
+
+@media (min-width: 1904px) {
+  .container {
+    max-width: 1185px;
+  }
+}

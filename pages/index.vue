@@ -1,64 +1,121 @@
 <template>
-  <v-app id="inspire">
-    <MenuBar />
-    <v-main class="white">
-      <v-container>
-        <v-row>
-          <v-col>
-            <v-sheet min-height="70vh" rounded="lg">
-              <v-carousel v-model="model">
-                <v-carousel-item v-for="(color, i) in colors" :key="color">
-                  <v-sheet :color="color" height="100%" tile>
-                    <v-row class="fill-height" align="center" justify="center">
-                      <div class="text-h2">Slide {{ i + 1 }}</div>
-                    </v-row>
-                  </v-sheet>
-                </v-carousel-item>
-              </v-carousel>
-            </v-sheet>
-          </v-col>
-        </v-row>
-        <v-row>
-          <v-col>
-            <v-sheet min-height="70vh" rounded="lg">
-              <!-- <h1>Gündüz Medya</h1>
-              <v-divider style="padding-bottom: 40px"></v-divider> -->
-              <v-row>
-                <v-col cols="4">
-                  <h3>Dijital medya <span>Video İçerikleri</span></h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Atque nulla quibusdam impedit a pariatur, cum aperiam
-                    molestias sequi! Quae voluptas rerum magnam officiis non
-                    eaque quidem aut! Adipisci, repellendus. Asperiores!
-                  </p>
-                </v-col>
-                <v-col cols="4">
-                  <h3>Dijital medya</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Atque nulla quibusdam impedit a pariatur, cum aperiam
-                    molestias sequi! Quae voluptas rerum magnam officiis non
-                    eaque quidem aut! Adipisci, repellendus. Asperiores!
-                  </p>
-                </v-col>
-                <v-col cols="4">
-                  <h3>Dijital medya</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Atque nulla quibusdam impedit a pariatur, cum aperiam
-                    molestias sequi! Quae voluptas rerum magnam officiis non
-                    eaque quidem aut! Adipisci, repellendus. Asperiores!
-                  </p>
-                </v-col>
-              </v-row>
-            </v-sheet>
-          </v-col>
-        </v-row>
-      </v-container>
-      <Footer />
-    </v-main>
-  </v-app>
+  <v-container>
+    <v-row>
+      <v-col>
+        <v-sheet min-height="70vh" rounded="lg">
+          <div class="gm_header">
+            <div class="" style="display: flex; align-items: center">
+              <div
+                style="display: flex; flex-direction: column; max-width: 40rem"
+              >
+                <h3>Dijital Medya <span>Proje Geliştirme</span></h3>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Dolores vitae, ad eum adipisci consectetur possimus
+                  repudiandae, nostrum dolorem earum ex inventore vel facilis
+                  similique officia sunt, est veniam quaerat. Molestias?
+                </p>
+              </div>
+            </div>
+          </div>
+        </v-sheet>
+      </v-col>
+    </v-row>
+    <v-row>
+      <v-col>
+        <v-sheet min-height="70vh" rounded="lg">
+          <v-row>
+            <v-col cols="12">
+              <h4>Yazılım & Tasarım</h4>
+            </v-col>
+          </v-row>
+          <v-row>
+            <v-col cols="4">
+              <h3>Yeni Teknoloji <span>Web Projeler</span></h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque
+                nulla quibusdam impedit a pariatur, cum aperiam molestias sequi!
+                Quae voluptas rerum magnam officiis non eaque quidem aut!
+                Adipisci, repellendus. Asperiores!
+              </p>
+              <nuxt-link class="underlinedLink" to="/web-projeler"
+                >Web Projeler</nuxt-link
+              >
+            </v-col>
+            <v-col cols="4">
+              <h3>Android & iOS <span>Mobil Uygulamalar</span></h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque
+                nulla quibusdam impedit a pariatur, cum aperiam molestias sequi!
+                Quae voluptas rerum magnam officiis non eaque quidem aut!
+                Adipisci, repellendus. Asperiores!
+              </p>
+              <nuxt-link class="underlinedLink" to="/mobil-uygulamalar"
+                >Mobil Uygulamalar</nuxt-link
+              >
+            </v-col>
+            <v-col cols="4">
+              <h3>Dijital Medya <span>Tasarım Çalışmaları</span></h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque
+                nulla quibusdam impedit a pariatur, cum aperiam molestias sequi!
+                Quae voluptas rerum magnam officiis non eaque quidem aut!
+                Adipisci, repellendus. Asperiores!
+              </p>
+              <nuxt-link class="underlinedLink" to="/tasarim-calismalari"
+                >Tasarım Çalışmaları</nuxt-link
+              >
+            </v-col>
+          </v-row>
+        </v-sheet>
+        <v-sheet min-height="70vh" rounded="lg">
+          <v-row>
+            <v-col cols="12">
+              <h4>İçerik Üretimi</h4>
+            </v-col>
+          </v-row>
+          <v-row>
+            <v-col cols="4">
+              <h3>Video Prodüksiyon<span>Üretim ve Düzenleme</span></h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque
+                nulla quibusdam impedit a pariatur, cum aperiam molestias sequi!
+                Quae voluptas rerum magnam officiis non eaque quidem aut!
+                Adipisci, repellendus. Asperiores!
+              </p>
+              <nuxt-link class="underlinedLink" to="/video-produksiyon"
+                >Video Prodüksiyon</nuxt-link
+              >
+            </v-col>
+            <v-col cols="4">
+              <h3>Podcast <span>Hikaye Anlatımı</span></h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque
+                nulla quibusdam impedit a pariatur, cum aperiam molestias sequi!
+                Quae voluptas rerum magnam officiis non eaque quidem aut!
+                Adipisci, repellendus. Asperiores!
+              </p>
+              <nuxt-link class="underlinedLink" to="/podcast"
+                >Podcast</nuxt-link
+              >
+            </v-col>
+            <v-col cols="4">
+              <h3>Canlı Yayın <span>İçerikler</span></h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque
+                nulla quibusdam impedit a pariatur, cum aperiam molestias sequi!
+                Quae voluptas rerum magnam officiis non eaque quidem aut!
+                Adipisci, repellendus. Asperiores!
+              </p>
+              <nuxt-link class="underlinedLink" to="/canli-yayin"
+                >Canlı Yayın</nuxt-link
+              >
+            </v-col>
+          </v-row>
+        </v-sheet>
+      </v-col>
+    </v-row>
+  </v-container>
 </template>
 
 <script>
@@ -70,15 +127,3 @@ export default {
   }),
 }
 </script>
-<style>
-h3 {
-    font-size: 2.3333333333em;
-    letter-spacing: -1px;
-    margin-bottom: 1.75rem;
-    color: #454545;
-}
-span {
-    display: block;
-    color: #fe2d5b;
-}
-</style>
