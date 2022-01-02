@@ -8,7 +8,7 @@
       flat
       tile
     >
-      <v-card-title class="gm-red">
+      <v-card-title class="gm-red-background">
         <strong class="subheading">Bizi Takip Edin!</strong>
 
         <v-spacer></v-spacer>

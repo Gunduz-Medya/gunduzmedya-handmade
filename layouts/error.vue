@@ -11,7 +11,7 @@
               <h1 v-else>
                 {{ otherError }}
               </h1>
-              <NuxtLink to="/"> Home page </NuxtLink>
+              <NuxtLink class="underlinedLink" to="/"> Anasayfaya dön! </NuxtLink>
             </v-sheet>
           </v-col>
         </v-row>
@@ -31,7 +31,7 @@ export default {
   },
   data() {
     return {
-      pageNotFound: '404 Not Found',
+      pageNotFound: 'Sayfa Bulunamadı!',
       otherError: 'An error occurred',
     }
   },

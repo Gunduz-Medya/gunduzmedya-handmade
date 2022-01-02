@@ -1,4 +1,4 @@
-.gm-red {
+.gm-red-background {
   background-color: $gm-red !important;
   border-color: $gm-red !important;
 }
@@ -14,8 +14,17 @@ h4 {
 }
 span {
   display: block;
-  color: #fe2d5b;
+  color: $gm-red;
   margin-top: -0.25rem;
+}
+
+.v-responsive__content {
+  display: flex;
+  justify-content: end;
+}
+
+.v-application a.underlinedLink {
+  margin: 0 5px 0 5px;
 }
 
 .underlinedLink {
@@ -28,7 +37,7 @@ span {
   transition: color 0.25s;
 }
 .underlinedLink:hover {
-  color: #fe2d5b;
+  color: $gm-red;
   text-decoration: none;
 }
 .underlinedLink:hover:before {
