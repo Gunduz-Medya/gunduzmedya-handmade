@@ -115,6 +115,43 @@
         </v-sheet>
       </v-col>
     </v-row>
+    <v-row>
+      <v-col>
+        <v-sheet min-height="70vh" rounded="lg">
+          <v-row>
+            <v-col cols="12">
+              <h4>Gündüz Medya</h4>
+            </v-col>
+          </v-row>
+          <v-row>
+            <v-col cols="6">
+              <h3 class="gm-color-red">Biz Kimiz?</h3>
+              <p class="pb40">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque
+                nulla quibusdam impedit a pariatur, cum aperiam molestias sequi!
+                Quae voluptas rerum magnam officiis non eaque quidem aut!
+                Adipisci, repellendus. Asperiores!
+              </p>
+              <nuxt-link class="gm-bordered-button" to="/web-projeler"
+                ><span>Hakkımızda</span></nuxt-link
+              >
+            </v-col>
+            <v-col cols="6">
+              <h3 class="gm-color-red">Neler Yapıyoruz?</h3>
+              <p class="pb40">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque
+                nulla quibusdam impedit a pariatur, cum aperiam molestias sequi!
+                Quae voluptas rerum magnam officiis non eaque quidem aut!
+                Adipisci, repellendus. Asperiores!
+              </p>
+              <nuxt-link class="gm-bordered-button" to="/mobil-uygulamalar"
+                ><span>Hizmetlerimiz</span></nuxt-link
+              >
+            </v-col>
+          </v-row>
+        </v-sheet>
+      </v-col>
+    </v-row>
   </v-container>
 </template>
 

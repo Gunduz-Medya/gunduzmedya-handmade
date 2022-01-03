@@ -1,6 +1,6 @@
-.gm-red-background {
-  background-color: $gm-red !important;
-  border-color: $gm-red !important;
+/* PADDING - MARGIN */
+.pb40{
+  padding-bottom: 40px;
 }
 
 h3 {
@@ -16,6 +16,36 @@ span {
   display: block;
   color: $gm-red;
   margin-top: -0.25rem;
+}
+/* COLORS */
+.gm-color-red {
+  color: $gm-red;
+}
+
+.gm-red-background {
+  background-color: $gm-red !important;
+  border-color: $gm-red !important;
+}
+
+/* BUTTONS */
+.gm-bordered-button {
+  background-color: $white;
+  border: 1px solid $dark-grey;
+  color: $white;
+  text-align: center;
+  font-size: 17px;
+  padding: 20px !important;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.gm-bordered-button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  color: $dark-grey;
 }
 
 .v-responsive__content {
@@ -62,6 +92,21 @@ span {
 .gm_header {
   min-height: 70vh;
   display: flex;
+}
+
+
+
+.menuBarLink {
+  position: relative;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  letter-spacing: 2px;
+  transition: color 0.25s;
+}
+
+.menuBarLink:hover {
+  color: $gm-red;
+  text-decoration: none;
 }
 
 @media (min-width: 1904px) {

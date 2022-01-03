@@ -6,11 +6,11 @@
         <v-spacer></v-spacer>
 
         <v-responsive>
-           <NuxtLink class="underlinedLink" :to="menu.home">Anasayfa</NuxtLink>
-           <NuxtLink class="underlinedLink" :to="menu.about">Hakkımızda</NuxtLink>
-           <NuxtLink class="underlinedLink" :to="menu.projects">Projelerimiz</NuxtLink>
-           <NuxtLink class="underlinedLink" :to="menu.expertise">Hizmetlerimiz</NuxtLink>
-           <NuxtLink class="underlinedLink" :to="menu.contact">İletişim</NuxtLink>
+           <NuxtLink class="menuBarLink" :to="menu.home">Anasayfa</NuxtLink>
+           <NuxtLink class="menuBarLink" :to="menu.about">Hakkımızda</NuxtLink>
+           <NuxtLink class="menuBarLink" :to="menu.projects">Projelerimiz</NuxtLink>
+           <NuxtLink class="menuBarLink" :to="menu.expertise">Hizmetlerimiz</NuxtLink>
+           <NuxtLink class="menuBarLink" :to="menu.contact">İletişim</NuxtLink>
         </v-responsive>
 
       </v-container>
