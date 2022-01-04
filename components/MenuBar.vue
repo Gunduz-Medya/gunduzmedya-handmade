@@ -1,20 +1,26 @@
 <template>
-  <v-app-bar app color="white" flat>
-      <v-container class="py-0 fill-height">
-        <div>GündüzMEDYA</div>
+  <v-app-bar app color="white" class="menuBar">
+    <v-container class="py-0 fill-height">
+      <div>
+        <img
+          class="menuBarLogo"
+          src="~/assets/img/gunduz-medya-logo/gunduz_medya-logos_transparent_small.png"
+        />
+      </div>
 
-        <v-spacer></v-spacer>
-
-        <v-responsive>
-           <NuxtLink class="menuBarLink" :to="menu.home">Anasayfa</NuxtLink>
-           <NuxtLink class="menuBarLink" :to="menu.about">Hakkımızda</NuxtLink>
-           <NuxtLink class="menuBarLink" :to="menu.projects">Projelerimiz</NuxtLink>
-           <NuxtLink class="menuBarLink" :to="menu.expertise">Hizmetlerimiz</NuxtLink>
-           <NuxtLink class="menuBarLink" :to="menu.contact">İletişim</NuxtLink>
-        </v-responsive>
-
-      </v-container>
-    </v-app-bar>
+      <v-responsive>
+        <NuxtLink class="menuBarLink" :to="menu.home">Anasayfa</NuxtLink>
+        <NuxtLink class="menuBarLink" :to="menu.about">Hakkımızda</NuxtLink>
+        <NuxtLink class="menuBarLink" :to="menu.projects"
+          >Projelerimiz</NuxtLink
+        >
+        <NuxtLink class="menuBarLink" :to="menu.expertise"
+          >Hizmetlerimiz</NuxtLink
+        >
+        <NuxtLink class="menuBarLink" :to="menu.contact">İletişim</NuxtLink>
+      </v-responsive>
+    </v-container>
+  </v-app-bar>
 </template>
 <script>
 export default {
@@ -25,7 +31,7 @@ export default {
         about: '/hakkimizda',
         projects: '/projelerimiz',
         expertise: '/hizmetlerimiz',
-        contact: '/iletisim'
+        contact: '/iletisim',
       },
     }
   },

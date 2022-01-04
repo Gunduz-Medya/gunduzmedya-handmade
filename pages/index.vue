@@ -8,7 +8,7 @@
               <div
                 style="display: flex; flex-direction: column; max-width: 40rem"
               >
-                <h3>Dijital Medya <span>Proje Geliştirme</span></h3>
+                <h3 class="header_title">Dijital Medya <span>Proje Geliştirme</span></h3>
                 <p>
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                   Dolores vitae, ad eum adipisci consectetur possimus
@@ -120,6 +120,136 @@
         <v-sheet min-height="70vh" rounded="lg">
           <v-row>
             <v-col cols="12">
+              <h4>Projelerimiz</h4>
+            </v-col>
+          </v-row>
+          <div class="gm-projects">
+            <div class="gm-projects__item">
+              <img
+                class="gm-projects__img lazyloaded"
+                data-srcset="https://www.atolye15.com/img/clients/mercedesbenz.png 1x, img/clients/mercedesbenz@2x.png 2x"
+                data-src="https://www.atolye15.com/img/clients/mercedesbenz.png"
+                alt="Mercedes-Benz"
+                srcset="
+                  https://www.atolye15.com/img/clients/mercedesbenz.png    1x,
+                  img/clients/mercedesbenz@2x.png 2x
+                "
+                src="https://www.atolye15.com/img/clients/mercedesbenz.png"
+              />
+            </div>
+            <div class="gm-projects__item">
+              <img
+                class="gm-projects__img lazyloaded"
+                data-srcset="https://www.atolye15.com/img/clients/mercedesbenz.png 1x, img/clients/mercedesbenz@2x.png 2x"
+                data-src="https://www.atolye15.com/img/clients/mercedesbenz.png"
+                alt="Mercedes-Benz"
+                srcset="
+                  https://www.atolye15.com/img/clients/mercedesbenz.png    1x,
+                  img/clients/mercedesbenz@2x.png 2x
+                "
+                src="https://www.atolye15.com/img/clients/mercedesbenz.png"
+              />
+            </div>
+            <div class="gm-projects__item">
+              <img
+                class="gm-projects__img lazyloaded"
+                data-srcset="https://www.atolye15.com/img/clients/mercedesbenz.png 1x, img/clients/mercedesbenz@2x.png 2x"
+                data-src="https://www.atolye15.com/img/clients/mercedesbenz.png"
+                alt="Mercedes-Benz"
+                srcset="
+                  https://www.atolye15.com/img/clients/mercedesbenz.png    1x,
+                  img/clients/mercedesbenz@2x.png 2x
+                "
+                src="https://www.atolye15.com/img/clients/mercedesbenz.png"
+              />
+            </div>
+            <div class="gm-projects__item">
+              <img
+                class="gm-projects__img lazyloaded"
+                data-srcset="https://www.atolye15.com/img/clients/mercedesbenz.png 1x, img/clients/mercedesbenz@2x.png 2x"
+                data-src="https://www.atolye15.com/img/clients/mercedesbenz.png"
+                alt="Mercedes-Benz"
+                srcset="
+                  https://www.atolye15.com/img/clients/mercedesbenz.png    1x,
+                  img/clients/mercedesbenz@2x.png 2x
+                "
+                src="https://www.atolye15.com/img/clients/mercedesbenz.png"
+              />
+            </div>
+            <div class="gm-projects__item">
+              <img
+                class="gm-projects__img lazyloaded"
+                data-srcset="https://www.atolye15.com/img/clients/mercedesbenz.png 1x, img/clients/mercedesbenz@2x.png 2x"
+                data-src="https://www.atolye15.com/img/clients/mercedesbenz.png"
+                alt="Mercedes-Benz"
+                srcset="
+                  https://www.atolye15.com/img/clients/mercedesbenz.png    1x,
+                  img/clients/mercedesbenz@2x.png 2x
+                "
+                src="https://www.atolye15.com/img/clients/mercedesbenz.png"
+              />
+            </div>
+            <div class="gm-projects__item">
+              <img
+                class="gm-projects__img lazyloaded"
+                data-srcset="https://www.atolye15.com/img/clients/mercedesbenz.png 1x, img/clients/mercedesbenz@2x.png 2x"
+                data-src="https://www.atolye15.com/img/clients/mercedesbenz.png"
+                alt="Mercedes-Benz"
+                srcset="
+                  https://www.atolye15.com/img/clients/mercedesbenz.png    1x,
+                  img/clients/mercedesbenz@2x.png 2x
+                "
+                src="https://www.atolye15.com/img/clients/mercedesbenz.png"
+              />
+            </div>
+            <div class="gm-projects__item">
+              <img
+                class="gm-projects__img lazyloaded"
+                data-srcset="https://www.atolye15.com/img/clients/mercedesbenz.png 1x, img/clients/mercedesbenz@2x.png 2x"
+                data-src="https://www.atolye15.com/img/clients/mercedesbenz.png"
+                alt="Mercedes-Benz"
+                srcset="
+                  https://www.atolye15.com/img/clients/mercedesbenz.png    1x,
+                  img/clients/mercedesbenz@2x.png 2x
+                "
+                src="https://www.atolye15.com/img/clients/mercedesbenz.png"
+              />
+            </div>
+            <div class="gm-projects__item">
+              <img
+                class="gm-projects__img lazyloaded"
+                data-srcset="https://www.atolye15.com/img/clients/mercedesbenz.png 1x, img/clients/mercedesbenz@2x.png 2x"
+                data-src="https://www.atolye15.com/img/clients/mercedesbenz.png"
+                alt="Mercedes-Benz"
+                srcset="
+                  https://www.atolye15.com/img/clients/mercedesbenz.png    1x,
+                  img/clients/mercedesbenz@2x.png 2x
+                "
+                src="https://www.atolye15.com/img/clients/mercedesbenz.png"
+              />
+            </div>
+            <div class="gm-projects__item">
+              <img
+                class="gm-projects__img lazyloaded"
+                data-srcset="https://www.atolye15.com/img/clients/mercedesbenz.png 1x, img/clients/mercedesbenz@2x.png 2x"
+                data-src="https://www.atolye15.com/img/clients/mercedesbenz.png"
+                alt="Mercedes-Benz"
+                srcset="
+                  https://www.atolye15.com/img/clients/mercedesbenz.png    1x,
+                  img/clients/mercedesbenz@2x.png 2x
+                "
+                src="https://www.atolye15.com/img/clients/mercedesbenz.png"
+              />
+            </div>
+          </div>
+        </v-sheet>
+      </v-col>
+    </v-row>
+    <v-row>
+      <v-col>
+        <v-sheet min-height="70vh" rounded="lg">
+          <v-row>
+            <v-col cols="12">
               <h4>Gündüz Medya</h4>
             </v-col>
           </v-row>
@@ -132,7 +262,7 @@
                 Quae voluptas rerum magnam officiis non eaque quidem aut!
                 Adipisci, repellendus. Asperiores!
               </p>
-              <nuxt-link class="gm-bordered-button" to="/web-projeler"
+              <nuxt-link class="gm-bordered-button" to="/hakkimizda"
                 ><span>Hakkımızda</span></nuxt-link
               >
             </v-col>
@@ -144,7 +274,7 @@
                 Quae voluptas rerum magnam officiis non eaque quidem aut!
                 Adipisci, repellendus. Asperiores!
               </p>
-              <nuxt-link class="gm-bordered-button" to="/mobil-uygulamalar"
+              <nuxt-link class="gm-bordered-button" to="/hizmetlerimiz"
                 ><span>Hizmetlerimiz</span></nuxt-link
               >
             </v-col>

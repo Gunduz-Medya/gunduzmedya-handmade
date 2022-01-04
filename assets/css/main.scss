@@ -1,8 +1,15 @@
-/* PADDING - MARGIN */
-.pb40{
-  padding-bottom: 40px;
-}
+/*
+STYLES
+0- BASE
+1- PADDING - MARGIN
+2- COLORS
+3- BUTTONS
+4- MENUBAR
+5- HEADER
+6- PROJECTS
+*/
 
+/* BASE */
 h3 {
   font-size: 2.3333333333em;
   letter-spacing: -1px;
@@ -17,6 +24,16 @@ span {
   color: $gm-red;
   margin-top: -0.25rem;
 }
+.v-responsive__content {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* PADDING - MARGIN */
+.pb40 {
+  padding-bottom: 40px;
+}
+
 /* COLORS */
 .gm-color-red {
   color: $gm-red;
@@ -46,11 +63,6 @@ span {
   position: relative;
   transition: 0.5s;
   color: $dark-grey;
-}
-
-.v-responsive__content {
-  display: flex;
-  justify-content: end;
 }
 
 .v-application a.underlinedLink {
@@ -89,13 +101,14 @@ span {
   transition-property: transform, background-color, -webkit-transform;
 }
 
-.gm_header {
-  min-height: 70vh;
-  display: flex;
+/* MENUBAR */
+.menuBar {
+  box-shadow: 0 5px 10px rgb(0 0 0 / 10%) !important;
+  opacity: 0.95;
 }
-
-
-
+.menuBarLogo {
+  width: 170px;
+}
 .menuBarLink {
   position: relative;
   font-size: 0.8125rem;
@@ -108,6 +121,74 @@ span {
   color: $gm-red;
   text-decoration: none;
 }
+
+/* HEADER */
+
+.gm_header {
+  min-height: 70vh;
+  display: flex;
+}
+
+.gm_header .header_title {
+  font-size: 4rem;
+}
+
+/* PROJECTS */
+.gm-projects {
+  display: flex;
+  overflow: hidden;
+  flex-wrap: wrap;
+  border-top: 0.0625rem solid transparent;
+  border-left: 0.0625rem solid transparent;
+}
+
+.gm-projects__item {
+  position: relative;
+  display: flex;
+  height: 9.375rem;
+  align-items: center;
+  justify-content: center;
+  margin-top: -0.0625rem;
+  margin-left: -0.0625rem;
+}
+.gm-projects__item {
+  width: 33.3%;
+}
+.gm-projects__item:after,
+.gm-projects__item:before {
+  position: absolute;
+  background-color: #eaeaea;
+  content: '';
+}
+.gm-projects__item:before {
+  top: 0;
+  left: 0.9375rem;
+  width: calc(100% - 1.875rem);
+  height: 1px;
+}
+.gm-projects__img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  max-width: 75%;
+  max-height: 75%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.gm-projects__item:after {
+  top: 0.9375rem;
+  left: 0;
+  width: 0.0625rem;
+  height: calc(100% - 1.875rem);
+}
+.gm-projects__item:after,
+.gm-projects__item:before {
+  position: absolute;
+  background-color: #eaeaea;
+  content: '';
+}
+
+
 
 @media (min-width: 1904px) {
   .container {
