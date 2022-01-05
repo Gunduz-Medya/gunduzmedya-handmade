@@ -2,7 +2,7 @@
   <v-container>
     <v-row>
       <v-col>
-        <v-sheet min-height="70vh" rounded="lg">
+        <v-sheet min-height="90vh" rounded="lg">
           <div class="gm_header">
             <div class="" style="display: flex; align-items: center">
               <div
@@ -288,9 +288,6 @@
 <script>
 export default {
   data: () => ({
-    links: ['Hakkımızda', 'Projelerimiz', 'Hizmetlerimiz', 'İletişim'],
-    model: 0,
-    colors: ['primary', 'secondary', 'yellow darken-2', 'red', 'orange'],
   }),
 }
 </script>
