@@ -30,7 +30,7 @@
             </v-col>
           </v-row>
           <v-row>
-            <v-col cols="4">
+            <div class="col-lg-4">
               <h3>Yeni Teknoloji <span>Web Projeler</span></h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque
@@ -41,8 +41,8 @@
               <nuxt-link class="underlinedLink" to="/web-projeler"
                 >Web Projeler</nuxt-link
               >
-            </v-col>
-            <v-col cols="4">
+            </div>
+             <div class="col-lg-4">
               <h3>Android & iOS <span>Mobil Uygulamalar</span></h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque
@@ -53,8 +53,8 @@
               <nuxt-link class="underlinedLink" to="/mobil-uygulamalar"
                 >Mobil Uygulamalar</nuxt-link
               >
-            </v-col>
-            <v-col cols="4">
+            </div>
+             <div class="col-lg-4">
               <h3>Dijital Medya <span>Tasarım Çalışmaları</span></h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque
@@ -65,7 +65,7 @@
               <nuxt-link class="underlinedLink" to="/tasarim-calismalari"
                 >Tasarım Çalışmaları</nuxt-link
               >
-            </v-col>
+            </div>
           </v-row>
         </v-sheet>
         <v-sheet min-height="70vh" rounded="lg">
@@ -75,7 +75,7 @@
             </v-col>
           </v-row>
           <v-row>
-            <v-col cols="4">
+             <div class="col-lg-4">
               <h3>Video Prodüksiyon<span>Üretim ve Düzenleme</span></h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque
@@ -86,8 +86,8 @@
               <nuxt-link class="underlinedLink" to="/video-produksiyon"
                 >Video Prodüksiyon</nuxt-link
               >
-            </v-col>
-            <v-col cols="4">
+            </div>
+             <div class="col-lg-4">
               <h3>Podcast <span>Hikaye Anlatımı</span></h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque
@@ -98,8 +98,8 @@
               <nuxt-link class="underlinedLink" to="/podcast"
                 >Podcast</nuxt-link
               >
-            </v-col>
-            <v-col cols="4">
+            </div>
+             <div class="col-lg-4">
               <h3>Canlı Yayın <span>İçerikler</span></h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque
@@ -110,7 +110,7 @@
               <nuxt-link class="underlinedLink" to="/canli-yayin"
                 >Canlı Yayın</nuxt-link
               >
-            </v-col>
+            </div>
           </v-row>
         </v-sheet>
       </v-col>
@@ -254,7 +254,7 @@
             </v-col>
           </v-row>
           <v-row>
-            <v-col cols="6">
+            <v-col md="12" sm="12" lg="6">
               <h3 class="gm-color-red">Biz Kimiz?</h3>
               <p class="pb40">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque
@@ -266,7 +266,7 @@
                 ><span>Hakkımızda</span></nuxt-link
               >
             </v-col>
-            <v-col cols="6">
+            <v-col md="12" sm="12" lg="6">
               <h3 class="gm-color-red">Neler Yapıyoruz?</h3>
               <p class="pb40">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque

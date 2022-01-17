@@ -9,7 +9,9 @@ STYLES
 6- PROJECTS
 */
 
-html, body, .v-application{
+html,
+body,
+.v-application {
   font-family: 'Montserrat', sans-serif !important;
 }
 
@@ -27,10 +29,15 @@ span {
   display: block;
   color: $gm-red;
   margin-top: -0.25rem;
+  font-size: 1.5rem;
 }
 .v-responsive__content {
   display: flex;
   justify-content: flex-end;
+}
+
+.img-responsive{
+  width: 100%;
 }
 
 /* PADDING - MARGIN */
@@ -110,8 +117,7 @@ span {
   box-shadow: 0 5px 10px rgb(0 0 0 / 10%) !important;
   opacity: 0.95;
 }
-.menuBar.v-app-bar--is-scrolled{
-
+.menuBar.v-app-bar--is-scrolled {
 }
 .menuBarLogo {
   width: 170px;
@@ -194,8 +200,6 @@ span {
   background-color: #eaeaea;
   content: '';
 }
-
-
 
 @media (min-width: 1904px) {
   .container {
