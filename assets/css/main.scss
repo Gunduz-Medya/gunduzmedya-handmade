@@ -6,7 +6,8 @@ STYLES
 3- BUTTONS
 4- MENUBAR
 5- HEADER
-6- PROJECTS
+6- FOOTER
+7- PROJECTS
 */
 
 html,
@@ -16,6 +17,10 @@ body,
 }
 
 /* BASE */
+.clg {
+  color: $light-grey;
+}
+
 h3 {
   font-size: 2.3333333333em;
   letter-spacing: -1px;
@@ -30,6 +35,17 @@ span {
   color: $gm-red;
   margin-top: -0.25rem;
   font-size: 1.5rem;
+}
+ul,
+li {
+  list-style: none;
+}
+li {
+  text-align: left;
+}
+.v-application ul,
+.v-application ol {
+  padding-left: 0 !important;
 }
 .v-responsive__content {
   display: flex;
@@ -47,6 +63,14 @@ span {
 /* PADDING - MARGIN */
 .pb40 {
   padding-bottom: 40px;
+}
+
+.mt1 {
+  margin-top: 1rem;
+}
+
+.tal {
+  text-align: left;
 }
 
 /* COLORS */
@@ -87,7 +111,7 @@ span {
 
 .underlinedLink {
   position: relative;
-  padding-top: 1rem !important;
+  margin-top: 1rem !important;
   display: inline-flex;
   font-size: 0.8125rem;
   font-weight: 500;
@@ -153,6 +177,24 @@ span {
 
 .headerImg {
   margin: auto;
+}
+
+/* FOOTER */
+.footer-container {
+  margin: 3rem 0 3rem 0;
+}
+
+.addressCol {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-top: 1rem;
+  span{
+    line-height: 2rem;
+  }
+  span:nth-of-type(1) {
+    color: $light-grey
+  }
 }
 
 /* PROJECTS */
