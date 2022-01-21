@@ -168,17 +168,4 @@ export default {
 }
 </script>
 <style>
-.c-blockquote {
-    margin: 0;
-}
-.c-blockquote__content {
-    margin-bottom: 0;
-    color: #424242;
-    font-size: 2rem;
-    line-height: 1.3333333333;
-}
-.u-color-primary {
-    color: #fe2d5b;
-    display: inline;
-}
 </style>
