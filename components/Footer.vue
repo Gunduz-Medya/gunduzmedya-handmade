@@ -83,6 +83,7 @@
                 <div class="addressCol">
                   <span>14 Wall Street</span>
                   <span>Manhattan, 10005, USA</span>
+                  <span class="mobileNum">+90 (542) 187 88 17</span>
                 </div>
               </div>
             </div>
