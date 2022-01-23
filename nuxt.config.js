@@ -6,7 +6,7 @@ export default {
     titleTemplate: '%s - Gündüz Medya',
     title: 'Dijital Medya Proje Üretimi',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'tr'
     },
     meta: [
       { charset: 'utf-8' },

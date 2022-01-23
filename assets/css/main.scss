@@ -257,6 +257,30 @@ li {
   content: '';
 }
 
+/* TEAM */
+.gm-team {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  .gm-team-card {
+    padding: 2rem;
+    hr {
+      border-top: 1px solid red;
+      margin: 1.5rem 0 1.5rem 0;
+    }
+    h5,p{
+      text-align: center;
+    }
+    .gm-team-card-img {
+      width: 100%;
+      border-radius: 9rem;
+    }
+    .gm-team-card-info {
+      text-align: center;
+    }
+  }
+}
+
 @media (min-width: 1904px) {
   .container {
     max-width: 1185px !important;

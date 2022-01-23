@@ -12,12 +12,12 @@
                   Gündüz Medya <span>Geliştirme & Yönetim</span>
                 </h3>
                 <p>
-                  YAZI DEĞİŞECEK:Daima üreten, gelişen, geliştiren ve asla yerinde saymamak
-                  için sürekli çok çalışan bir ekibiz. Tüm projelerimizde, işin
-                  başından sonuna dek içimize sinene kadar titizlikle hareket
-                  ediyoruz. Yazılım, tasarım, reklam ve içerik üretiminde
-                  edindiğimiz tüm tecrübeleri yarını anlamakta ve öğrenmekte
-                  kullanıyoruz.
+                  YAZI DEĞİŞECEK:Daima üreten, gelişen, geliştiren ve asla
+                  yerinde saymamak için sürekli çok çalışan bir ekibiz. Tüm
+                  projelerimizde, işin başından sonuna dek içimize sinene kadar
+                  titizlikle hareket ediyoruz. Yazılım, tasarım, reklam ve
+                  içerik üretiminde edindiğimiz tüm tecrübeleri yarını anlamakta
+                  ve öğrenmekte kullanıyoruz.
                 </p>
               </div>
             </div>
@@ -31,14 +31,7 @@
         </v-sheet>
       </v-col>
     </v-row>
-    <v-row>
-      <v-col>
-        <img
-          class="img-responsive"
-          src="~/assets/img/gunduz-medya-wallpaper.jpg"
-        />
-      </v-col>
-    </v-row>
+
     <v-row>
       <v-col>
         <v-sheet min-height="60vh" rounded="lg">
@@ -66,6 +59,39 @@
               Ürünlerimizin ve projelerimizin kullanıcılara en doğru hizmeti
               vermesinin öncesinde geliştiren bizlerin kodları hem rahat
               anlayabilmesi hem de rahat etmesi önem verdiğimiz konulardandır.
+            </div>
+          </v-row>
+        </v-sheet>
+      </v-col>
+    </v-row>
+    <v-row>
+      <v-col>
+        <img
+          class="img-responsive"
+          src="~/assets/img/gunduz-medya-wallpaper.jpg"
+        />
+      </v-col>
+    </v-row>
+    <v-row>
+      <v-col>
+        <v-sheet min-height="60vh" rounded="lg">
+          <v-row>
+            <v-col cols="12">
+              <h4>Takımımız</h4>
+            </v-col>
+          </v-row>
+          <v-row>
+            <div class="gm-team">
+              <div v-for="x,index in 5" :key="index" class="col-lg-3 col-md-3 col-sm-3 gm-team-card">
+                <img
+                  class="gm-team-card-img"
+                  src="https://pbs.twimg.com/profile_images/1081208546128289792/GjPT_D33_400x400.jpg"
+                  alt=""
+                />
+                <!-- <hr> -->
+                <h5>Barış Gündüz</h5>
+                <p>CEO, Founder</p>
+              </div>
             </div>
           </v-row>
         </v-sheet>
