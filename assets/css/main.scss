@@ -56,6 +56,14 @@ li {
   width: 100%;
 }
 
+.img-25 {
+  width: 25%;
+}
+
+.img-13 {
+  width: 13%;
+}
+
 .gm_dflex {
   display: flex;
 }
@@ -257,6 +265,15 @@ li {
   content: '';
 }
 
+.tech-stack-text {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  margin-left: 0.5rem;
+  color: #454545;
+}
+
 /* TEAM */
 .gm-team {
   display: flex;
@@ -268,7 +285,8 @@ li {
       border-top: 1px solid red;
       margin: 1.5rem 0 1.5rem 0;
     }
-    h5,p{
+    h5,
+    p {
       text-align: center;
     }
     .gm-team-card-img {

@@ -82,7 +82,11 @@
           </v-row>
           <v-row>
             <div class="gm-team">
-              <div v-for="x,index in 5" :key="index" class="col-lg-3 col-md-3 col-sm-3 gm-team-card">
+              <div
+                v-for="(x, index) in 5"
+                :key="index"
+                class="col-lg-3 col-md-3 col-sm-3 gm-team-card"
+              >
                 <img
                   class="gm-team-card-img"
                   src="https://pbs.twimg.com/profile_images/1081208546128289792/GjPT_D33_400x400.jpg"
@@ -105,32 +109,7 @@
               <h4>Gündüz Medya</h4>
             </v-col>
           </v-row>
-          <v-row>
-            <v-col md="12" sm="12" lg="6">
-              <h3 class="gm-color-red">Biz Kimiz?</h3>
-              <p class="pb40">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque
-                nulla quibusdam impedit a pariatur, cum aperiam molestias sequi!
-                Quae voluptas rerum magnam officiis non eaque quidem aut!
-                Adipisci, repellendus. Asperiores!
-              </p>
-              <nuxt-link class="gm-bordered-button" to="/hakkimizda"
-                ><span>Hakkımızda</span></nuxt-link
-              >
-            </v-col>
-            <v-col md="12" sm="12" lg="6">
-              <h3 class="gm-color-red">Neler Yapıyoruz?</h3>
-              <p class="pb40">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque
-                nulla quibusdam impedit a pariatur, cum aperiam molestias sequi!
-                Quae voluptas rerum magnam officiis non eaque quidem aut!
-                Adipisci, repellendus. Asperiores!
-              </p>
-              <nuxt-link class="gm-bordered-button" to="/hizmetlerimiz"
-                ><span>Hizmetlerimiz</span></nuxt-link
-              >
-            </v-col>
-          </v-row>
+          <ContentFooter />
         </v-sheet>
       </v-col>
     </v-row>
