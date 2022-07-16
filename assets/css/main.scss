@@ -159,11 +159,34 @@ li {
   box-shadow: 0 5px 10px rgb(0 0 0 / 10%) !important;
   opacity: 0.95;
 }
-.menuBar.v-app-bar--is-scrolled {
+.menuBarIntro {
+  box-shadow: none !important;
 }
+/* .menuBar.v-app-bar--is-scrolled {
+} */
 .menuBarLogo {
   width: 170px;
 }
+
+.menuBarIntroLogo {
+  width: 100px;
+  height: 100px;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid rgb(228, 228, 228);
+  background: #fff;
+  display: grid;
+  position: relative;
+  z-index: 2;
+  justify-content: center;
+  align-items: center;
+}
+
+.menuBarIntroLogo img {
+  width: 70px;
+}
+
 .menuBarLink {
   position: relative;
   font-size: 0.8125rem;
@@ -190,6 +213,18 @@ li {
 
 .headerImg {
   margin: auto;
+}
+
+/* CONTENT */
+/* INTRO */
+.gm-logo-intro::after {
+  content: '';
+  position: absolute;
+  top: 1rem;
+  bottom: 1rem;
+  left: 50%;
+  border: 1px solid rgb(241, 241, 241);
+  z-index: 1;
 }
 
 /* FOOTER */
