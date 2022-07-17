@@ -16,23 +16,5 @@
   </v-app-bar>
 </template>
 <script>
-export default {
-  data() {
-    return {
-      menu: {
-        home: '/',
-        about: '/hakkimizda',
-        projects: '/projelerimiz',
-        expertise: '/hizmetlerimiz',
-        contact: '/iletisim',
-      },
-    }
-  },
-}
+export default {}
 </script>
-<style lang="sass">
-.v-application a
-  color: #5c5c5c
-  text-decoration: none
-  padding: 0px 5px 0px 5px
-</style>

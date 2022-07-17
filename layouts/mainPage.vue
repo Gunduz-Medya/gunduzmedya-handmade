@@ -1,7 +1,6 @@
 <template>
   <v-app id="inspire">
     <v-main class="white" style="padding:0">
-     <!--  <MenuBarIntro /> -->
       <Nuxt />
     </v-main>
   </v-app>

@@ -9,9 +9,6 @@
         reklam ve içerik üretiminde edindiğimiz tüm tecrübeleri yarını anlamakta
         ve öğrenmekte kullanıyoruz.
       </p>
-      <nuxt-link class="gm-bordered-button" to="/hakkimizda"
-        ><span>Hakkımızda</span></nuxt-link
-      >
     </v-col>
     <v-col md="12" sm="12" lg="6">
       <h3 class="gm-color-red">Neler Yapıyoruz?</h3>
@@ -22,9 +19,6 @@
         Dijital medyada projeler geliştiriyoruz ve bu projeler için gerekli olan
         teknolojileri çantamıza eklemeye devam ediyoruz.
       </p>
-      <nuxt-link class="gm-bordered-button" to="/hizmetlerimiz"
-        ><span>Hizmetlerimiz</span></nuxt-link
-      >
     </v-col>
   </v-row>
 </template>

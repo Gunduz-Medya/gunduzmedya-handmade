@@ -10,7 +10,7 @@
           justify-content: center;
         "
       >
-        <nuxt-link class="underlinedLink" to="/index2"
+        <nuxt-link class="underlinedLink" to="/proje-gelistirme"
           >Proje Gelistirme</nuxt-link
         >
       </div>
@@ -36,7 +36,7 @@
           justify-content: center;
         "
       >
-        <nuxt-link class="underlinedLink" to="/web-projeler"
+        <nuxt-link class="underlinedLink" to="/icerik-uretimi"
           >Icerik Uretimi</nuxt-link
         >
       </div>
