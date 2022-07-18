@@ -1,7 +1,7 @@
 <template>
   <v-footer dark padless>
     <v-card class="flex" flat tile>
-      <v-card-title class="gm-red-background">
+      <v-card-title class="gm-yellow-background">
         <div class="container">
           <div class="row">
             <strong class="subheading">Bizi Takip Edin!</strong>

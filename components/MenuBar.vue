@@ -10,7 +10,7 @@
         </NuxtLink>
       </div>
 
-      <!--  <v-responsive>
+       <v-responsive>
         <NuxtLink class="menuBarLink" :to="menu.home">Anasayfa</NuxtLink>
         <NuxtLink class="menuBarLink" :to="menu.about">Hakkımızda</NuxtLink>
         <NuxtLink class="menuBarLink" :to="menu.projects"
@@ -20,7 +20,7 @@
           >Hizmetlerimiz</NuxtLink
         >
         <NuxtLink class="menuBarLink" :to="menu.contact">İletişim</NuxtLink>
-      </v-responsive> -->
+      </v-responsive>
     </v-container>
   </v-app-bar>
 </template>

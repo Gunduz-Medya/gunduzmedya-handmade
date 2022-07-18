@@ -11,94 +11,64 @@
           <div class="gm-projects__item">
             <img
               class="gm-projects__img"
-              alt=""
+              alt="Barış Gündüz"
               src="~/assets/img/projects/bg.png"
             />
           </div>
           <div class="gm-projects__item">
             <img
               class="gm-projects__img"
-              alt=""
+              alt="Vaktindeye"
               src="~/assets/img/projects/vaktindeye.png"
             />
           </div>
           <div class="gm-projects__item">
             <img
               class="gm-projects__img"
-              alt=""
-              src="~/assets/img/projects/kodburada.png"
+              alt="LETS"
+              src="~/assets/img/projects/lets.png"
             />
           </div>
           <div class="gm-projects__item">
             <img
               class="gm-projects__img"
-              alt=""
-              src="~/assets/img/projects/devstup.png"
+              alt="Contact Turkey"
+              src="~/assets/img/projects/contact-turkey.png"
             />
           </div>
           <div class="gm-projects__item">
             <img
-              class="gm-projects__img lazyloaded"
-              data-srcset="https://www.atolye15.com/img/clients/mercedesbenz.png 1x, img/clients/mercedesbenz@2x.png 2x"
-              data-src="https://www.atolye15.com/img/clients/mercedesbenz.png"
-              alt="Mercedes-Benz"
-              srcset="
-                https://www.atolye15.com/img/clients/mercedesbenz.png 1x,
-                img/clients/mercedesbenz@2x.png                       2x
-              "
-              src="https://www.atolye15.com/img/clients/mercedesbenz.png"
+              class="gm-projects__img"
+              alt="Gündüz Medya Coming Soon"
+              src="~/assets/img/projects/gm-coming-soon.png"
             />
           </div>
           <div class="gm-projects__item">
             <img
-              class="gm-projects__img lazyloaded"
-              data-srcset="https://www.atolye15.com/img/clients/mercedesbenz.png 1x, img/clients/mercedesbenz@2x.png 2x"
-              data-src="https://www.atolye15.com/img/clients/mercedesbenz.png"
-              alt="Mercedes-Benz"
-              srcset="
-                https://www.atolye15.com/img/clients/mercedesbenz.png 1x,
-                img/clients/mercedesbenz@2x.png                       2x
-              "
-              src="https://www.atolye15.com/img/clients/mercedesbenz.png"
+              class="gm-projects__img"
+              alt="Gündüz Medya Coming Soon"
+              src="~/assets/img/projects/gm-coming-soon.png"
             />
           </div>
           <div class="gm-projects__item">
             <img
-              class="gm-projects__img lazyloaded"
-              data-srcset="https://www.atolye15.com/img/clients/mercedesbenz.png 1x, img/clients/mercedesbenz@2x.png 2x"
-              data-src="https://www.atolye15.com/img/clients/mercedesbenz.png"
-              alt="Mercedes-Benz"
-              srcset="
-                https://www.atolye15.com/img/clients/mercedesbenz.png 1x,
-                img/clients/mercedesbenz@2x.png                       2x
-              "
-              src="https://www.atolye15.com/img/clients/mercedesbenz.png"
+              class="gm-projects__img"
+              alt="Gündüz Medya Coming Soon"
+              src="~/assets/img/projects/gm-coming-soon.png"
             />
           </div>
           <div class="gm-projects__item">
             <img
-              class="gm-projects__img lazyloaded"
-              data-srcset="https://www.atolye15.com/img/clients/mercedesbenz.png 1x, img/clients/mercedesbenz@2x.png 2x"
-              data-src="https://www.atolye15.com/img/clients/mercedesbenz.png"
-              alt="Mercedes-Benz"
-              srcset="
-                https://www.atolye15.com/img/clients/mercedesbenz.png 1x,
-                img/clients/mercedesbenz@2x.png                       2x
-              "
-              src="https://www.atolye15.com/img/clients/mercedesbenz.png"
+              class="gm-projects__img"
+              alt="Gündüz Medya Coming Soon"
+              src="~/assets/img/projects/gm-coming-soon.png"
             />
           </div>
           <div class="gm-projects__item">
             <img
-              class="gm-projects__img lazyloaded"
-              data-srcset="https://www.atolye15.com/img/clients/mercedesbenz.png 1x, img/clients/mercedesbenz@2x.png 2x"
-              data-src="https://www.atolye15.com/img/clients/mercedesbenz.png"
-              alt="Mercedes-Benz"
-              srcset="
-                https://www.atolye15.com/img/clients/mercedesbenz.png 1x,
-                img/clients/mercedesbenz@2x.png                       2x
-              "
-              src="https://www.atolye15.com/img/clients/mercedesbenz.png"
+              class="gm-projects__img"
+              alt="Gündüz Medya Coming Soon"
+              src="~/assets/img/projects/gm-coming-soon.png"
             />
           </div>
         </div>

@@ -1,7 +1,9 @@
 <template>
   <v-row>
     <v-col md="12" sm="12" lg="6">
-      <h3 class="gm-color-red">Biz Kimiz?</h3>
+      <h3 class="header_title">
+        Biz Kimiz? <span class="subtitle">Teknoloji Sever</span>
+      </h3>
       <p class="pb40">
         Daima üreten, gelişen, geliştiren ve asla yerinde saymamak için sürekli
         çok çalışan bir ekibiz. Tüm projelerimizde, işin başından sonuna dek
@@ -11,7 +13,9 @@
       </p>
     </v-col>
     <v-col md="12" sm="12" lg="6">
-      <h3 class="gm-color-red">Neler Yapıyoruz?</h3>
+      <h3 class="header_title">
+        Neler Yapıyoruz? <span class="subtitle">Proje Üretimi</span>
+      </h3>
       <p class="pb40">
         Yazıyoruz, çiziyoruz, çekim yapıyoruz, üretiyoruz ve en önemlisi
         eğlenerek öğreniyoruz. Yeni teknolojiler kullanmamız sayesinde biz de

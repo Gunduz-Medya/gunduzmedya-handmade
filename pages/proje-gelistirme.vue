@@ -10,11 +10,11 @@
                 style="display: flex; flex-direction: column; max-width: 40rem"
               >
                 <h3 class="header_title">
-                  Dijital Medya <span class="subtitle">Proje Geliştirme</span>
+                  Yazılım & Tasarım <span class="subtitle">Proje Geliştirme</span>
                 </h3>
                 <p>
                   Dijital medyada yer almanın ne kadar önemli olduğunun farkında
-                  olarak en yeni teknolojiler ile muhteşem markalar yaratıyoruz.
+                  olarak en yeni teknolojiler ile muhteşem projeler üretiyoruz.
                   Her gün gelişerek geliştirmeye devam etmek en büyük
                   mutluluğumuz!
                 </p>

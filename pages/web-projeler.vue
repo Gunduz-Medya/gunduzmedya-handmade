@@ -26,7 +26,7 @@
     </v-row>
     <v-row>
       <v-col>
-        <v-sheet min-height="70vh" rounded="lg">
+        <v-sheet min-height="90vh" rounded="lg">
           <v-row>
             <v-col cols="12">
               <h4>Web Projeler</h4>
@@ -90,7 +90,7 @@
     </v-row>
     <v-row>
       <v-col>
-        <v-sheet min-height="70vh" rounded="lg">
+        <v-sheet min-height="50vh" rounded="lg">
           <v-row>
             <v-col cols="12">
               <h4>Araçlar ve Teknolojiler</h4>
@@ -165,18 +165,7 @@
         </v-sheet>
       </v-col>
     </v-row>
-    <v-row>
-      <v-col>
-        <v-sheet min-height="70vh" rounded="lg">
-          <v-row>
-            <v-col cols="12">
-              <h4>Gündüz Medya</h4>
-            </v-col>
-          </v-row>
-          <ContentFooter />
-        </v-sheet>
-      </v-col>
-    </v-row>
+    
   </v-container>
 </template>
 
