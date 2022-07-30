@@ -25,6 +25,13 @@
           <div class="gm-projects__item">
             <img
               class="gm-projects__img"
+              alt="Gündüz Medya Coming Soon"
+              src="~/assets/img/projects/aksay_grup_sigorta_logo_yatay.png"
+            />
+          </div>
+          <div class="gm-projects__item">
+            <img
+              class="gm-projects__img"
               alt="LETS"
               src="~/assets/img/projects/lets.png"
             />
@@ -34,13 +41,6 @@
               class="gm-projects__img"
               alt="Contact Turkey"
               src="~/assets/img/projects/contact-turkey.png"
-            />
-          </div>
-          <div class="gm-projects__item">
-            <img
-              class="gm-projects__img"
-              alt="Gündüz Medya Coming Soon"
-              src="~/assets/img/projects/gm-coming-soon.png"
             />
           </div>
           <div class="gm-projects__item">
