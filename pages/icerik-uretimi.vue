@@ -38,54 +38,6 @@
         <v-sheet min-height="70vh" rounded="lg">
           <v-row>
             <v-col cols="12">
-              <h4>Yazılım & Tasarım</h4>
-            </v-col>
-          </v-row>
-          <v-row>
-            <div class="col-lg-4">
-              <h3>Yeni Teknoloji <span>Web Projeler</span></h3>
-              <p>
-                Birinci sınıf araçlar ve teknolojileri kullanarak, her cihazda
-                iyi performans gösteren temiz ve ölçeklenebilir yapıda projeler
-                üretiyoruz. Modern dil ve frameworkleri kullanmaya ve projenin
-                özel ihtiyaçları için mevcut en iyi teknolojiyi seçmeye özen
-                gösteriyoruz.
-              </p>
-              <nuxt-link class="underlinedLink" to="/web-projeler"
-                >Web Projeler</nuxt-link
-              >
-            </div>
-            <div class="col-lg-4">
-              <h3>Android & iOS <span>Mobil Uygulamalar</span></h3>
-              <p>
-                Modern görünümlü arayüzlerin yanında, sürdürülebilir ve
-                ölçeklenebilir kod tabanı ile tüm ekran boyutlarına uygun
-                kullanışlı ve performanslı uygulamalar sağlayarak hem iOS hem de
-                Android platformları için etkili mobil uygulamalar
-                geliştiriyoruz.
-              </p>
-              <nuxt-link class="underlinedLink" to="/mobil-uygulamalar"
-                >Mobil Uygulamalar</nuxt-link
-              >
-            </div>
-            <div class="col-lg-4">
-              <h3>Dijital Medya <span>Tasarım Çalışmaları</span></h3>
-              <p>
-                Tasarım, bir projeyi kullanıcıyla buluşturan en önemli
-                unsurlardandır. Strateji ve deneyim, tasarımı üst seviyelere
-                taşırken projeyi de daha anlaşılır ve kullanılır kılar. Ekrana
-                baktığımızda gördüğümüz keyfi ve hazzı sizlerle de paylaşmak
-                için can atıyoruz.
-              </p>
-              <nuxt-link class="underlinedLink" to="/tasarim-calismalari"
-                >Tasarım Çalışmaları</nuxt-link
-              >
-            </div>
-          </v-row>
-        </v-sheet>
-        <v-sheet min-height="70vh" rounded="lg">
-          <v-row>
-            <v-col cols="12">
               <h4>İçerik Üretimi</h4>
             </v-col>
           </v-row>
