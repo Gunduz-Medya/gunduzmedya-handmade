@@ -1,14 +1,16 @@
 <template>
   <v-app-bar app color="white" class="menuBar">
-    <v-container class="py-0 fill-height">
+    <v-container class="py-0 fill-height gm-centered-content">
       <div>
-        <img
-          class="menuBarLogo"
-          src="~/assets/img/gunduz-medya-logo/gunduz_medya-logos_transparent_small.png"
-        />
+        <NuxtLink class="menuBarLink" to="/">
+          <img
+            class="menuBarLogo"
+            src="~/assets/img/gunduz-medya-logo/GM-Black.png"
+          />
+        </NuxtLink>
       </div>
 
-      <v-responsive>
+       <v-responsive>
         <NuxtLink class="menuBarLink" :to="menu.home">Anasayfa</NuxtLink>
         <NuxtLink class="menuBarLink" :to="menu.about">Hakkımızda</NuxtLink>
         <NuxtLink class="menuBarLink" :to="menu.projects"

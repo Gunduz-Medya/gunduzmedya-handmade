@@ -32,42 +32,45 @@
             </v-col>
           </v-row>
           <v-row>
-            <v-col cols="4">
+            <div class="col-lg-4">
               <h3>Yeni Teknoloji <span>Web Projeler</span></h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque
-                nulla quibusdam impedit a pariatur, cum aperiam molestias sequi!
-                Quae voluptas rerum magnam officiis non eaque quidem aut!
-                Adipisci, repellendus. Asperiores!
+                Birinci sınıf araçlar ve teknolojileri kullanarak, her cihazda
+                iyi performans gösteren temiz ve ölçeklenebilir yapıda projeler
+                üretiyoruz. Modern dil ve frameworkleri kullanmaya ve projenin
+                özel ihtiyaçları için mevcut en iyi teknolojiyi seçmeye özen
+                gösteriyoruz.
               </p>
               <nuxt-link class="underlinedLink" to="/web-projeler"
                 >Web Projeler</nuxt-link
               >
-            </v-col>
-            <v-col cols="4">
+            </div>
+            <div class="col-lg-4">
               <h3>Android & iOS <span>Mobil Uygulamalar</span></h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque
-                nulla quibusdam impedit a pariatur, cum aperiam molestias sequi!
-                Quae voluptas rerum magnam officiis non eaque quidem aut!
-                Adipisci, repellendus. Asperiores!
+                Modern görünümlü arayüzlerin yanında, sürdürülebilir ve
+                ölçeklenebilir kod tabanı ile tüm ekran boyutlarına uygun
+                kullanışlı ve performanslı uygulamalar sağlayarak hem iOS hem de
+                Android platformları için etkili mobil uygulamalar
+                geliştiriyoruz.
               </p>
               <nuxt-link class="underlinedLink" to="/mobil-uygulamalar"
                 >Mobil Uygulamalar</nuxt-link
               >
-            </v-col>
-            <v-col cols="4">
+            </div>
+            <div class="col-lg-4">
               <h3>Dijital Medya <span>Tasarım Çalışmaları</span></h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque
-                nulla quibusdam impedit a pariatur, cum aperiam molestias sequi!
-                Quae voluptas rerum magnam officiis non eaque quidem aut!
-                Adipisci, repellendus. Asperiores!
+                Tasarım, bir projeyi kullanıcıyla buluşturan en önemli
+                unsurlardandır. Strateji ve deneyim, tasarımı üst seviyelere
+                taşırken projeyi de daha anlaşılır ve kullanılır kılar. Ekrana
+                baktığımızda gördüğümüz keyfi ve hazzı sizlerle de paylaşmak
+                için can atıyoruz.
               </p>
               <nuxt-link class="underlinedLink" to="/tasarim-calismalari"
                 >Tasarım Çalışmaları</nuxt-link
               >
-            </v-col>
+            </div>
           </v-row>
         </v-sheet>
         <v-sheet min-height="70vh" rounded="lg">
@@ -77,49 +80,53 @@
             </v-col>
           </v-row>
           <v-row>
-            <v-col cols="4">
+            <div class="col-lg-4">
               <h3>Video Prodüksiyon<span>Üretim ve Düzenleme</span></h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque
-                nulla quibusdam impedit a pariatur, cum aperiam molestias sequi!
-                Quae voluptas rerum magnam officiis non eaque quidem aut!
-                Adipisci, repellendus. Asperiores!
+                Dijitalleşen dünyada içerik üretiminin en önemli katmanı haline
+                gelen video üretimi, çekim ve düzenleme konusunda trendleri
+                takip eden ve yeni şeyler denemeyi asla bırakmayan ekibimiz ile
+                birlikte paylaşımlara heyecan katıyoruz.
               </p>
               <nuxt-link class="underlinedLink" to="/video-produksiyon"
                 >Video Prodüksiyon</nuxt-link
               >
-            </v-col>
-            <v-col cols="4">
+            </div>
+            <div class="col-lg-4">
               <h3>Podcast <span>Hikaye Anlatımı</span></h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque
-                nulla quibusdam impedit a pariatur, cum aperiam molestias sequi!
-                Quae voluptas rerum magnam officiis non eaque quidem aut!
-                Adipisci, repellendus. Asperiores!
+                Radyo ile büyümüş, o keyfi yaşamışlar olarak podcast'in tadını
+                çıkaran, büyüsünü hisseden ve hissettirmeye çalışan bir yapıda
+                podcast projelerimizi sizlerle paylaşıyoruz. Gündüz Medya
+                yapımlarından en keyif aldığımız projelerden podcast serileri.
               </p>
               <nuxt-link class="underlinedLink" to="/podcast"
                 >Podcast</nuxt-link
               >
-            </v-col>
-            <v-col cols="4">
+            </div>
+            <div class="col-lg-4">
               <h3>Canlı Yayın <span>İçerikler</span></h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque
-                nulla quibusdam impedit a pariatur, cum aperiam molestias sequi!
-                Quae voluptas rerum magnam officiis non eaque quidem aut!
-                Adipisci, repellendus. Asperiores!
+                Popüler içerik üretim kanallarından olan canlı yayın
+                platformlarında farklı kategorilerde içerikler üretiyoruz. Canlı
+                yayın altyapısı için projelendirme desteğimizi yayın tasarımı,
+                telifsiz müzik üretimi ve kurulum gibi konulardaki iş
+                birliklerimiz ile güçlendiriyoruz.
               </p>
               <nuxt-link class="underlinedLink" to="/canli-yayin"
                 >Canlı Yayın</nuxt-link
               >
-            </v-col>
+            </div>
           </v-row>
         </v-sheet>
       </v-col>
     </v-row>
     <v-row>
       <v-col>
-        <img class="img-responsive" src="~/assets/img/gunduz-medya-wallpaper.jpg" />
+        <img
+          class="img-responsive"
+          src="~/assets/img/gunduz-medya-wallpaper.jpg"
+        />
       </v-col>
     </v-row>
     <v-row>
@@ -130,32 +137,7 @@
               <h4>Gündüz Medya</h4>
             </v-col>
           </v-row>
-          <v-row>
-            <v-col md="12" sm="12" lg="6">
-              <h3 class="gm-color-red">Biz Kimiz?</h3>
-              <p class="pb40">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque
-                nulla quibusdam impedit a pariatur, cum aperiam molestias sequi!
-                Quae voluptas rerum magnam officiis non eaque quidem aut!
-                Adipisci, repellendus. Asperiores!
-              </p>
-              <nuxt-link class="gm-bordered-button" to="/hakkimizda"
-                ><span>Hakkımızda</span></nuxt-link
-              >
-            </v-col>
-            <v-col md="12" sm="12" lg="6">
-              <h3 class="gm-color-red">Neler Yapıyoruz?</h3>
-              <p class="pb40">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque
-                nulla quibusdam impedit a pariatur, cum aperiam molestias sequi!
-                Quae voluptas rerum magnam officiis non eaque quidem aut!
-                Adipisci, repellendus. Asperiores!
-              </p>
-              <nuxt-link class="gm-bordered-button" to="/hizmetlerimiz"
-                ><span>Hizmetlerimiz</span></nuxt-link
-              >
-            </v-col>
-          </v-row>
+          <ContentFooter />
         </v-sheet>
       </v-col>
     </v-row>
@@ -167,18 +149,4 @@ export default {
   data: () => ({}),
 }
 </script>
-<style>
-.c-blockquote {
-    margin: 0;
-}
-.c-blockquote__content {
-    margin-bottom: 0;
-    color: #424242;
-    font-size: 2rem;
-    line-height: 1.3333333333;
-}
-.u-color-primary {
-    color: #fe2d5b;
-    display: inline;
-}
-</style>
+<style></style>

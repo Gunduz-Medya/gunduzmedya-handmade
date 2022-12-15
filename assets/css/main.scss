@@ -6,7 +6,8 @@ STYLES
 3- BUTTONS
 4- MENUBAR
 5- HEADER
-6- PROJECTS
+6- FOOTER
+7- PROJECTS
 */
 
 html,
@@ -16,6 +17,10 @@ body,
 }
 
 /* BASE */
+.clg {
+  color: $light-grey;
+}
+
 h3 {
   font-size: 2.3333333333em;
   letter-spacing: -1px;
@@ -31,18 +36,66 @@ span {
   margin-top: -0.25rem;
   font-size: 1.5rem;
 }
+ul,
+li {
+  list-style: none;
+}
+li {
+  text-align: left;
+}
+.subtitle {
+  display: block;
+  color: $gm-yellow;
+  background-color: $gm-dark-bg;
+  margin-top: -0.25rem;
+  font-size: 1.5rem;
+}
+.v-application ul,
+.v-application ol {
+  padding-left: 0 !important;
+}
 .v-responsive__content {
   display: flex;
   justify-content: flex-end;
 }
 
-.img-responsive{
+.img-responsive {
   width: 100%;
+}
+
+.img-25 {
+  width: 25%;
+}
+
+.img-13 {
+  width: 13%;
+}
+
+.gm_dflex {
+  display: flex;
+}
+
+.gm-centered-content {
+  justify-content: center;
+  align-items: center;
+}
+
+.bigBoldText {
+  font-size: 1.4em;
+  font-weight: 600;
 }
 
 /* PADDING - MARGIN */
 .pb40 {
   padding-bottom: 40px;
+}
+
+.mt1 {
+  margin-top: 1rem;
+}
+
+.tal {
+  text-align: left;
 }
 
 /* COLORS */
@@ -53,6 +106,11 @@ span {
 .gm-red-background {
   background-color: $gm-red !important;
   border-color: $gm-red !important;
+}
+
+.gm-yellow-background {
+  background-color: $gm-yellow !important;
+  border-color: $gm-yellow !important;
 }
 
 /* BUTTONS */
@@ -74,6 +132,7 @@ span {
   position: relative;
   transition: 0.5s;
   color: $dark-grey;
+  font-size: 1em;
 }
 
 .v-application a.underlinedLink {
@@ -82,7 +141,7 @@ span {
 
 .underlinedLink {
   position: relative;
-  padding-top: 1rem !important;
+  margin-top: 1rem !important;
   display: inline-flex;
   font-size: 0.8125rem;
   font-weight: 500;
@@ -114,14 +173,37 @@ span {
 
 /* MENUBAR */
 .menuBar {
-  box-shadow: 0 5px 10px rgb(0 0 0 / 10%) !important;
+  box-shadow: none !important;
   opacity: 0.95;
 }
-.menuBar.v-app-bar--is-scrolled {
+.menuBarIntro {
+  box-shadow: none !important;
 }
+/* .menuBar.v-app-bar--is-scrolled {
+} */
 .menuBarLogo {
-  width: 170px;
+  width: 70px;
 }
+
+.menuBarIntroLogo {
+  width: 100px;
+  height: 100px;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid rgb(228, 228, 228);
+  background: #fff;
+  display: grid;
+  position: relative;
+  z-index: 2;
+  justify-content: center;
+  align-items: center;
+}
+
+.menuBarIntroLogo img {
+  width: 70px;
+}
+
 .menuBarLink {
   position: relative;
   font-size: 0.8125rem;
@@ -144,6 +226,45 @@ span {
 
 .gm_header .header_title {
   font-size: 4rem;
+}
+
+.headerImg {
+  margin: auto;
+}
+
+/* CONTENT */
+/* INTRO */
+.gm-logo-intro::after {
+  content: '';
+  position: absolute;
+  top: 1rem;
+  bottom: 1rem;
+  left: 50%;
+  border: 1px solid rgb(241, 241, 241);
+  z-index: 1;
+}
+
+/* FOOTER */
+.footer-container {
+  margin: 3rem 0 3rem 0;
+}
+
+.addressCol {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-top: 1rem;
+  span {
+    line-height: 2rem;
+  }
+  span:nth-of-type(1) {
+    color: $light-grey;
+  }
+}
+
+.mobileNum {
+  color: #939393;
+  font-size: 1rem;
 }
 
 /* PROJECTS */
@@ -180,13 +301,8 @@ span {
   height: 1px;
 }
 .gm-projects__img {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  max-width: 75%;
-  max-height: 75%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  max-width: 50%;
+  max-height: 50%;
 }
 .gm-projects__item:after {
   top: 0.9375rem;
@@ -201,8 +317,42 @@ span {
   content: '';
 }
 
+.tech-stack-text {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  margin-left: 0.5rem;
+  color: #454545;
+}
+
+/* TEAM */
+.gm-team {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  .gm-team-card {
+    padding: 2rem;
+    hr {
+      border-top: 1px solid red;
+      margin: 1.5rem 0 1.5rem 0;
+    }
+    h5,
+    p {
+      text-align: center;
+    }
+    .gm-team-card-img {
+      width: 100%;
+      border-radius: 9rem;
+    }
+    .gm-team-card-info {
+      text-align: center;
+    }
+  }
+}
+
 @media (min-width: 1904px) {
   .container {
-    max-width: 1185px;
+    max-width: 1185px !important;
   }
 }

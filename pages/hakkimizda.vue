@@ -2,8 +2,8 @@
   <v-container>
     <v-row>
       <v-col>
-        <v-sheet min-height="90vh" rounded="lg">
-          <div class="gm_header">
+        <v-sheet class="gm_dflex" min-height="90vh" rounded="lg">
+          <div class="gm_header col-lg-6">
             <div class="" style="display: flex; align-items: center">
               <div
                 style="display: flex; flex-direction: column; max-width: 40rem"
@@ -12,72 +12,110 @@
                   Gündüz Medya <span>Geliştirme & Yönetim</span>
                 </h3>
                 <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Dolores vitae, ad eum adipisci consectetur possimus
-                  repudiandae, nostrum dolorem earum ex inventore vel facilis
-                  similique officia sunt, est veniam quaerat. Molestias?
+                  YAZI DEĞİŞECEK:Daima üreten, gelişen, geliştiren ve asla
+                  yerinde saymamak için sürekli çok çalışan bir ekibiz. Tüm
+                  projelerimizde, işin başından sonuna dek içimize sinene kadar
+                  titizlikle hareket ediyoruz. Yazılım, tasarım, reklam ve
+                  içerik üretiminde edindiğimiz tüm tecrübeleri yarını anlamakta
+                  ve öğrenmekte kullanıyoruz.
                 </p>
               </div>
             </div>
           </div>
+          <div class="headerImg col-lg-6">
+            <img
+              class="img-responsive"
+              src="https://www.atolye15.com/img/jumbotron/expertise-ui-ux-design.jpg"
+            />
+          </div>
         </v-sheet>
       </v-col>
     </v-row>
+
     <v-row>
       <v-col>
-        <v-sheet min-height="30vh" rounded="lg">
-          <blockquote class="c-blockquote">
-            <p class="c-blockquote__content c-blockquote__content--medium">
-              We are partners with more than
-              <span class="u-color-primary">150</span> great clients from
-              <span class="u-color-primary">8</span> different countries around
-              the globe to create more than
-              <span class="u-color-primary">200</span> amazing products with our
-              <span class="u-color-primary">28</span> passionate team members.
-            </p>
-          </blockquote>
-        </v-sheet>
-      </v-col>
-    </v-row>
-    <v-row>
-      <v-col>
-        <img class="img-responsive" src="~/assets/img/gunduz-medya-wallpaper.jpg" />
-      </v-col>
-    </v-row>
-    <v-row>
-      <v-col>
-        <v-sheet min-height="70vh" rounded="lg">
+        <v-sheet min-height="90vh" rounded="lg">
           <v-row>
             <v-col cols="12">
               <h4>Gündüz Medya</h4>
             </v-col>
           </v-row>
           <v-row>
-            <v-col md="12" sm="12" lg="6">
-              <h3 class="gm-color-red">Biz Kimiz?</h3>
-              <p class="pb40">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque
-                nulla quibusdam impedit a pariatur, cum aperiam molestias sequi!
-                Quae voluptas rerum magnam officiis non eaque quidem aut!
-                Adipisci, repellendus. Asperiores!
-              </p>
-              <nuxt-link class="gm-bordered-button" to="/hakkimizda"
-                ><span>Hakkımızda</span></nuxt-link
-              >
-            </v-col>
-            <v-col md="12" sm="12" lg="6">
-              <h3 class="gm-color-red">Neler Yapıyoruz?</h3>
-              <p class="pb40">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque
-                nulla quibusdam impedit a pariatur, cum aperiam molestias sequi!
-                Quae voluptas rerum magnam officiis non eaque quidem aut!
-                Adipisci, repellendus. Asperiores!
-              </p>
-              <nuxt-link class="gm-bordered-button" to="/hizmetlerimiz"
-                ><span>Hizmetlerimiz</span></nuxt-link
-              >
+            <div class="col-lg-6 bigBoldText">
+              Daima üreten, gelişen, geliştiren ve asla yerinde saymamak için
+              sürekli çok çalışan bir ekibiz. Tüm projelerimizde, işin başından
+              sonuna dek içimize sinene kadar titizlikle hareket ediyoruz.
+              Yazılım, tasarım, reklam ve içerik üretiminde edindiğimiz tüm
+              tecrübeleri yarını anlamakta ve öğrenmekte kullanıyoruz.
+            </div>
+            <div class="col-lg-6">
+              Yazıyoruz, çiziyoruz, çekim yapıyoruz, üretiyoruz ve en önemlisi
+              eğlenerek öğreniyoruz. Yeni teknolojiler kullanmamız sayesinde biz
+              de gelişiyoruz ve yeni çağa her zaman ayak uydurmaya devam
+              ediyoruz. Dijital medyada projeler geliştiriyoruz ve bu projeler
+              için gerekli olan teknolojileri çantamıza eklemeye devam ediyoruz.
+              Birinci sınıf araçları ve teknolojileri kullanarak, her cihazda
+              iyi performans gösteren temiz ve anlaşılır kodlar yazıyoruz.
+              Ürünlerimizin ve projelerimizin kullanıcılara en doğru hizmeti
+              vermesinin öncesinde geliştiren bizlerin kodları hem rahat
+              anlayabilmesi hem de rahat etmesi önem verdiğimiz konulardandır.
+            </div>
+          </v-row>
+        </v-sheet>
+      </v-col>
+    </v-row>
+    <v-row>
+      <v-col>
+        <v-sheet min-height="90vh" rounded="lg">
+          <v-row>
+            <v-col cols="12">
+              <img
+                class="img-responsive"
+                src="~/assets/img/gunduz-medya-wallpaper.jpg"
+              />
             </v-col>
           </v-row>
+        </v-sheet>
+      </v-col>
+    </v-row>
+    <v-row>
+      <v-col>
+        <v-sheet min-height="90vh" rounded="lg">
+          <v-row>
+            <v-col cols="12">
+              <h4>Takımımız</h4>
+            </v-col>
+          </v-row>
+          <v-row>
+            <div class="gm-team">
+              <div
+                v-for="(x, index) in 5"
+                :key="index"
+                class="col-lg-3 col-md-3 col-sm-3 gm-team-card"
+              >
+                <img
+                  class="gm-team-card-img"
+                  src="https://pbs.twimg.com/profile_images/1081208546128289792/GjPT_D33_400x400.jpg"
+                  alt=""
+                />
+                <!-- <hr> -->
+                <h5>Barış Gündüz</h5>
+                <p>CEO, Founder</p>
+              </div>
+            </div>
+          </v-row>
+        </v-sheet>
+      </v-col>
+    </v-row>
+    <v-row>
+      <v-col>
+        <v-sheet min-height="90vh" rounded="lg">
+          <v-row>
+            <v-col cols="12">
+              <h4>Gündüz Medya</h4>
+            </v-col>
+          </v-row>
+          <ContentFooter />
         </v-sheet>
       </v-col>
     </v-row>

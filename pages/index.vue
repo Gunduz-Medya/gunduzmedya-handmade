@@ -1,293 +1,51 @@
 <template>
   <v-container>
     <v-row>
-      <v-col>
-        <v-sheet min-height="90vh" rounded="lg">
-          <div class="gm_header">
-            <div class="" style="display: flex; align-items: center">
-              <div
-                style="display: flex; flex-direction: column; max-width: 40rem"
-              >
-                <h3 class="header_title">Dijital Medya <span>Proje Geliştirme</span></h3>
-                <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Dolores vitae, ad eum adipisci consectetur possimus
-                  repudiandae, nostrum dolorem earum ex inventore vel facilis
-                  similique officia sunt, est veniam quaerat. Molestias?
-                </p>
-              </div>
-            </div>
-          </div>
-        </v-sheet>
-      </v-col>
-    </v-row>
-    <v-row>
-      <v-col>
-        <v-sheet min-height="70vh" rounded="lg">
-          <v-row>
-            <v-col cols="12">
-              <h4>Yazılım & Tasarım</h4>
-            </v-col>
-          </v-row>
-          <v-row>
-            <div class="col-lg-4">
-              <h3>Yeni Teknoloji <span>Web Projeler</span></h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque
-                nulla quibusdam impedit a pariatur, cum aperiam molestias sequi!
-                Quae voluptas rerum magnam officiis non eaque quidem aut!
-                Adipisci, repellendus. Asperiores!
-              </p>
-              <nuxt-link class="underlinedLink" to="/web-projeler"
-                >Web Projeler</nuxt-link
-              >
-            </div>
-             <div class="col-lg-4">
-              <h3>Android & iOS <span>Mobil Uygulamalar</span></h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque
-                nulla quibusdam impedit a pariatur, cum aperiam molestias sequi!
-                Quae voluptas rerum magnam officiis non eaque quidem aut!
-                Adipisci, repellendus. Asperiores!
-              </p>
-              <nuxt-link class="underlinedLink" to="/mobil-uygulamalar"
-                >Mobil Uygulamalar</nuxt-link
-              >
-            </div>
-             <div class="col-lg-4">
-              <h3>Dijital Medya <span>Tasarım Çalışmaları</span></h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque
-                nulla quibusdam impedit a pariatur, cum aperiam molestias sequi!
-                Quae voluptas rerum magnam officiis non eaque quidem aut!
-                Adipisci, repellendus. Asperiores!
-              </p>
-              <nuxt-link class="underlinedLink" to="/tasarim-calismalari"
-                >Tasarım Çalışmaları</nuxt-link
-              >
-            </div>
-          </v-row>
-        </v-sheet>
-        <v-sheet min-height="70vh" rounded="lg">
-          <v-row>
-            <v-col cols="12">
-              <h4>İçerik Üretimi</h4>
-            </v-col>
-          </v-row>
-          <v-row>
-             <div class="col-lg-4">
-              <h3>Video Prodüksiyon<span>Üretim ve Düzenleme</span></h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque
-                nulla quibusdam impedit a pariatur, cum aperiam molestias sequi!
-                Quae voluptas rerum magnam officiis non eaque quidem aut!
-                Adipisci, repellendus. Asperiores!
-              </p>
-              <nuxt-link class="underlinedLink" to="/video-produksiyon"
-                >Video Prodüksiyon</nuxt-link
-              >
-            </div>
-             <div class="col-lg-4">
-              <h3>Podcast <span>Hikaye Anlatımı</span></h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque
-                nulla quibusdam impedit a pariatur, cum aperiam molestias sequi!
-                Quae voluptas rerum magnam officiis non eaque quidem aut!
-                Adipisci, repellendus. Asperiores!
-              </p>
-              <nuxt-link class="underlinedLink" to="/podcast"
-                >Podcast</nuxt-link
-              >
-            </div>
-             <div class="col-lg-4">
-              <h3>Canlı Yayın <span>İçerikler</span></h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque
-                nulla quibusdam impedit a pariatur, cum aperiam molestias sequi!
-                Quae voluptas rerum magnam officiis non eaque quidem aut!
-                Adipisci, repellendus. Asperiores!
-              </p>
-              <nuxt-link class="underlinedLink" to="/canli-yayin"
-                >Canlı Yayın</nuxt-link
-              >
-            </div>
-          </v-row>
-        </v-sheet>
-      </v-col>
-    </v-row>
-    <v-row>
-      <v-col>
-        <v-sheet min-height="70vh" rounded="lg">
-          <v-row>
-            <v-col cols="12">
-              <h4>Projelerimiz</h4>
-            </v-col>
-          </v-row>
-          <div class="gm-projects">
-            <div class="gm-projects__item">
-              <img
-                class="gm-projects__img lazyloaded"
-                data-srcset="https://www.atolye15.com/img/clients/mercedesbenz.png 1x, img/clients/mercedesbenz@2x.png 2x"
-                data-src="https://www.atolye15.com/img/clients/mercedesbenz.png"
-                alt="Mercedes-Benz"
-                srcset="
-                  https://www.atolye15.com/img/clients/mercedesbenz.png    1x,
-                  img/clients/mercedesbenz@2x.png 2x
-                "
-                src="https://www.atolye15.com/img/clients/mercedesbenz.png"
-              />
-            </div>
-            <div class="gm-projects__item">
-              <img
-                class="gm-projects__img lazyloaded"
-                data-srcset="https://www.atolye15.com/img/clients/mercedesbenz.png 1x, img/clients/mercedesbenz@2x.png 2x"
-                data-src="https://www.atolye15.com/img/clients/mercedesbenz.png"
-                alt="Mercedes-Benz"
-                srcset="
-                  https://www.atolye15.com/img/clients/mercedesbenz.png    1x,
-                  img/clients/mercedesbenz@2x.png 2x
-                "
-                src="https://www.atolye15.com/img/clients/mercedesbenz.png"
-              />
-            </div>
-            <div class="gm-projects__item">
-              <img
-                class="gm-projects__img lazyloaded"
-                data-srcset="https://www.atolye15.com/img/clients/mercedesbenz.png 1x, img/clients/mercedesbenz@2x.png 2x"
-                data-src="https://www.atolye15.com/img/clients/mercedesbenz.png"
-                alt="Mercedes-Benz"
-                srcset="
-                  https://www.atolye15.com/img/clients/mercedesbenz.png    1x,
-                  img/clients/mercedesbenz@2x.png 2x
-                "
-                src="https://www.atolye15.com/img/clients/mercedesbenz.png"
-              />
-            </div>
-            <div class="gm-projects__item">
-              <img
-                class="gm-projects__img lazyloaded"
-                data-srcset="https://www.atolye15.com/img/clients/mercedesbenz.png 1x, img/clients/mercedesbenz@2x.png 2x"
-                data-src="https://www.atolye15.com/img/clients/mercedesbenz.png"
-                alt="Mercedes-Benz"
-                srcset="
-                  https://www.atolye15.com/img/clients/mercedesbenz.png    1x,
-                  img/clients/mercedesbenz@2x.png 2x
-                "
-                src="https://www.atolye15.com/img/clients/mercedesbenz.png"
-              />
-            </div>
-            <div class="gm-projects__item">
-              <img
-                class="gm-projects__img lazyloaded"
-                data-srcset="https://www.atolye15.com/img/clients/mercedesbenz.png 1x, img/clients/mercedesbenz@2x.png 2x"
-                data-src="https://www.atolye15.com/img/clients/mercedesbenz.png"
-                alt="Mercedes-Benz"
-                srcset="
-                  https://www.atolye15.com/img/clients/mercedesbenz.png    1x,
-                  img/clients/mercedesbenz@2x.png 2x
-                "
-                src="https://www.atolye15.com/img/clients/mercedesbenz.png"
-              />
-            </div>
-            <div class="gm-projects__item">
-              <img
-                class="gm-projects__img lazyloaded"
-                data-srcset="https://www.atolye15.com/img/clients/mercedesbenz.png 1x, img/clients/mercedesbenz@2x.png 2x"
-                data-src="https://www.atolye15.com/img/clients/mercedesbenz.png"
-                alt="Mercedes-Benz"
-                srcset="
-                  https://www.atolye15.com/img/clients/mercedesbenz.png    1x,
-                  img/clients/mercedesbenz@2x.png 2x
-                "
-                src="https://www.atolye15.com/img/clients/mercedesbenz.png"
-              />
-            </div>
-            <div class="gm-projects__item">
-              <img
-                class="gm-projects__img lazyloaded"
-                data-srcset="https://www.atolye15.com/img/clients/mercedesbenz.png 1x, img/clients/mercedesbenz@2x.png 2x"
-                data-src="https://www.atolye15.com/img/clients/mercedesbenz.png"
-                alt="Mercedes-Benz"
-                srcset="
-                  https://www.atolye15.com/img/clients/mercedesbenz.png    1x,
-                  img/clients/mercedesbenz@2x.png 2x
-                "
-                src="https://www.atolye15.com/img/clients/mercedesbenz.png"
-              />
-            </div>
-            <div class="gm-projects__item">
-              <img
-                class="gm-projects__img lazyloaded"
-                data-srcset="https://www.atolye15.com/img/clients/mercedesbenz.png 1x, img/clients/mercedesbenz@2x.png 2x"
-                data-src="https://www.atolye15.com/img/clients/mercedesbenz.png"
-                alt="Mercedes-Benz"
-                srcset="
-                  https://www.atolye15.com/img/clients/mercedesbenz.png    1x,
-                  img/clients/mercedesbenz@2x.png 2x
-                "
-                src="https://www.atolye15.com/img/clients/mercedesbenz.png"
-              />
-            </div>
-            <div class="gm-projects__item">
-              <img
-                class="gm-projects__img lazyloaded"
-                data-srcset="https://www.atolye15.com/img/clients/mercedesbenz.png 1x, img/clients/mercedesbenz@2x.png 2x"
-                data-src="https://www.atolye15.com/img/clients/mercedesbenz.png"
-                alt="Mercedes-Benz"
-                srcset="
-                  https://www.atolye15.com/img/clients/mercedesbenz.png    1x,
-                  img/clients/mercedesbenz@2x.png 2x
-                "
-                src="https://www.atolye15.com/img/clients/mercedesbenz.png"
-              />
-            </div>
-          </div>
-        </v-sheet>
-      </v-col>
-    </v-row>
-    <v-row>
-      <v-col>
-        <v-sheet min-height="70vh" rounded="lg">
-          <v-row>
-            <v-col cols="12">
-              <h4>Gündüz Medya</h4>
-            </v-col>
-          </v-row>
-          <v-row>
-            <v-col md="12" sm="12" lg="6">
-              <h3 class="gm-color-red">Biz Kimiz?</h3>
-              <p class="pb40">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque
-                nulla quibusdam impedit a pariatur, cum aperiam molestias sequi!
-                Quae voluptas rerum magnam officiis non eaque quidem aut!
-                Adipisci, repellendus. Asperiores!
-              </p>
-              <nuxt-link class="gm-bordered-button" to="/hakkimizda"
-                ><span>Hakkımızda</span></nuxt-link
-              >
-            </v-col>
-            <v-col md="12" sm="12" lg="6">
-              <h3 class="gm-color-red">Neler Yapıyoruz?</h3>
-              <p class="pb40">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque
-                nulla quibusdam impedit a pariatur, cum aperiam molestias sequi!
-                Quae voluptas rerum magnam officiis non eaque quidem aut!
-                Adipisci, repellendus. Asperiores!
-              </p>
-              <nuxt-link class="gm-bordered-button" to="/hizmetlerimiz"
-                ><span>Hizmetlerimiz</span></nuxt-link
-              >
-            </v-col>
-          </v-row>
-        </v-sheet>
-      </v-col>
+      <div
+        class="col-lg-5 col-sm-5 col-xs-5 col"
+        style="
+          height: 100vh;
+          display: grid;
+          align-content: center;
+          justify-content: center;
+        "
+      >
+        <nuxt-link class="underlinedLink" to="/proje-gelistirme"
+          >Proje Gelistirme</nuxt-link
+        >
+      </div>
+      <div
+        class="col-lg-2 col-sm-2 col-xs-2 col gm-logo-intro"
+        style="
+          height: 100vh;
+          display: grid;
+          align-content: center;
+          justify-content: center;
+        "
+      >
+        <div class="menuBarIntroLogo">
+          <img src="~/assets/img/gunduz-medya-logo/GM-Black.png" />
+        </div>
+      </div>
+      <div
+        class="col-lg-5 col-sm-5 col-xs-5 col"
+        style="
+          height: 100vh;
+          display: grid;
+          align-content: center;
+          justify-content: center;
+        "
+      >
+        <nuxt-link class="underlinedLink" to="/icerik-uretimi"
+          >Icerik Uretimi</nuxt-link
+        >
+      </div>
     </v-row>
   </v-container>
 </template>
 
 <script>
 export default {
-  data: () => ({
-  }),
+  layout: 'mainPage',
 }
 </script>
