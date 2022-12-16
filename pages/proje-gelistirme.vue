@@ -35,7 +35,7 @@
     </v-row>
     <v-row>
       <v-col>
-        <v-sheet min-height="70vh" rounded="lg">
+        <v-sheet min-height="90vh" rounded="lg">
           <v-row>
             <v-col cols="12">
               <h4>Yazılım & Tasarım</h4>
@@ -88,7 +88,7 @@
     <ProjectDevelopment />
     <v-row>
       <v-col>
-        <v-sheet min-height="70vh" rounded="lg">
+        <v-sheet min-height="90vh" rounded="lg">
           <v-row>
             <v-col cols="12">
               <h4>Gündüz Medya</h4>

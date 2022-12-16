@@ -34,7 +34,7 @@
 
     <v-row>
       <v-col>
-        <v-sheet min-height="60vh" rounded="lg">
+        <v-sheet min-height="90vh" rounded="lg">
           <v-row>
             <v-col cols="12">
               <h4>Gündüz Medya</h4>
@@ -66,15 +66,21 @@
     </v-row>
     <v-row>
       <v-col>
-        <img
-          class="img-responsive"
-          src="~/assets/img/gunduz-medya-wallpaper.jpg"
-        />
+        <v-sheet min-height="90vh" rounded="lg">
+          <v-row>
+            <v-col cols="12">
+              <img
+                class="img-responsive"
+                src="~/assets/img/gunduz-medya-wallpaper.jpg"
+              />
+            </v-col>
+          </v-row>
+        </v-sheet>
       </v-col>
     </v-row>
     <v-row>
       <v-col>
-        <v-sheet min-height="60vh" rounded="lg">
+        <v-sheet min-height="90vh" rounded="lg">
           <v-row>
             <v-col cols="12">
               <h4>Takımımız</h4>
@@ -103,7 +109,7 @@
     </v-row>
     <v-row>
       <v-col>
-        <v-sheet min-height="70vh" rounded="lg">
+        <v-sheet min-height="90vh" rounded="lg">
           <v-row>
             <v-col cols="12">
               <h4>Gündüz Medya</h4>
